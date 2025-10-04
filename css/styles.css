@@ -58,8 +58,6 @@ a {
 }
 
 .hero {
-  width: 1440px;
-  height: 600px;
   background: #2e2f42;
 }
 
@@ -74,7 +72,6 @@ a {
 }
 .hero-button {
   cursor: pointer;
-  border-color: transparent;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -110,7 +107,7 @@ a {
   background: #f4f4fd;
 }
 
-.team-list {
+.team-item {
   background-color: #ffffff;
 }
 
@@ -146,6 +143,7 @@ a {
 }
 
 .portfolio-title {
+  text-transform: capitalize;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -156,7 +154,6 @@ a {
 }
 
 .portfolio-subtitle {
-  text-transform: capitalize;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
